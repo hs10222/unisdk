@@ -2,10 +2,10 @@ package com.game.unisdk.core;
 
 import android.app.Activity;
 
-import com.game.unisdk.interfaces.IGameUniSDK;
-import com.game.unisdk.listener.InitListener;
-import com.game.unisdk.listener.LoginListener;
-import com.game.unisdk.listener.LogoutListener;
+import com.game.unisdk.common.IGameUniSDK;
+import com.game.unisdk.listener.UniInitListener;
+import com.game.unisdk.listener.UniLoginListener;
+import com.game.unisdk.listener.UniLogoutListener;
 
 /**
  * Created by Pawns on 2021/1/27
@@ -14,12 +14,12 @@ import com.game.unisdk.listener.LogoutListener;
  */
 public class GameUniSDKImpl implements IGameUniSDK {
     @Override
-    public void init(Activity activity, InitListener listener) {
+    public void init(Activity activity, UniInitListener listener) {
 
     }
 
     @Override
-    public void login(LoginListener listener) {
+    public void login(UniLoginListener listener) {
 
     }
 
@@ -34,7 +34,7 @@ public class GameUniSDKImpl implements IGameUniSDK {
     }
 
     @Override
-    public void logout(LogoutListener listener) {
+    public void logout(UniLogoutListener listener) {
 
     }
 }

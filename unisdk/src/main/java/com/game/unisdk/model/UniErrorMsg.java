@@ -5,7 +5,7 @@ package com.game.unisdk.model;
  * <p>
  * Copyright (c) 2021 echo All rights reserved.
  */
-public class ErrorMsg {
+public class UniErrorMsg {
 
     public static final String MSG_UNI_SDK_INIT_SUCCESS = "uni sdk init success";
 

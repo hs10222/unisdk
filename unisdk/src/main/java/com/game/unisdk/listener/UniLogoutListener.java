@@ -5,7 +5,7 @@ package com.game.unisdk.listener;
  * <p>
  * Copyright (c) 2021 echo All rights reserved.
  */
-public interface LogoutListener {
+public interface UniLogoutListener {
 
     void onLogout();
 }

@@ -5,7 +5,7 @@ package com.game.unisdk.model;
  * <p>
  * Copyright (c) 2021 echo All rights reserved.
  */
-public class ErrorCode {
+public class UniErrorCode {
     /**
      * uni sdk init success
      */

@@ -7,7 +7,7 @@ import java.io.Serializable;
  * <p>
  * Copyright (c) 2021 echo All rights reserved.
  */
-public class Account implements Serializable {
+public class UniAccount implements Serializable {
 
     private static final long serialVersionUID = 234567582354371264L;
     private String mUid;

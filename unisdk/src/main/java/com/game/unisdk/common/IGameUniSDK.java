@@ -1,10 +1,10 @@
-package com.game.unisdk.interfaces;
+package com.game.unisdk.common;
 
 import android.app.Activity;
 
-import com.game.unisdk.listener.InitListener;
-import com.game.unisdk.listener.LoginListener;
-import com.game.unisdk.listener.LogoutListener;
+import com.game.unisdk.listener.UniInitListener;
+import com.game.unisdk.listener.UniLoginListener;
+import com.game.unisdk.listener.UniLogoutListener;
 
 /**
  * Created by Pawns on 2021/1/27
@@ -13,12 +13,12 @@ import com.game.unisdk.listener.LogoutListener;
  */
 public interface IGameUniSDK {
 
-    void init(Activity activity, InitListener listener);
+    void init(Activity activity, UniInitListener listener);
     /**
      * will require when user login
      * @param listener @see LoginListener
      */
-    void login(LoginListener listener);
+    void login(UniLoginListener listener);
 
 
     void pay(String price,String currency,String orderId,String callbackUrl);
@@ -28,5 +28,5 @@ public interface IGameUniSDK {
      * will require when user logout
      * @param listener
      */
-    void logout(LogoutListener listener);
+    void logout(UniLogoutListener listener);
 }
